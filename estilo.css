@@ -1,25 +1,25 @@
+/* Importa a fonte elegante "Playfair Display" do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&display=swap');
+
 /* ============================================================
-   TEMA 3 — EDITORIAL (claro, sério, com fonte serifada)
-   Para usar: salve este arquivo como  estilo.css  no seu projeto.
-   Você pode mudar CORES, FONTE e BORDAS aqui.
-   NÃO mexa na seção "LAYOUT (GRID)" — é o layout pedido na atividade.
+   TEMA 3 — EDITORIAL (Personalizado: Fonte Serifada Elegante e Tom Vinho)
    ============================================================ */
 
-/* ---- Cores e fonte (mude à vontade) ---- */
+/* ---- Cores e fonte ---- */
 :root {
-  --cor: #b5533b;
-  --cor-escura: #8f3f2c;
-  --texto: #2b2b2b;
-  --suave: #7a6f66;
-  --fundo: #faf6f0;
-  --superficie: #ffffff;
+  --cor: #722f37;         /* Vinho principal (links, detalhes) */
+  --cor-escura: #4a1525;  /* Vinho escuro (títulos h1, h2) */
+  --texto: #3b1119;       /* Vinho bem escuro (texto geral) */
+  --suave: #8c5a63;       /* Vinho suave (subtítulos e rodapé) */
+  --fundo: #faf6f0;       /* Fundo suave claro */
+  --superficie: #ffffff;  /* Cartões em branco */
   --borda: #e3d9cc;
   --raio: 6px;
 }
 
 body {
   margin: 0;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
   color: var(--texto);
   background: var(--fundo);
   line-height: 1.65;
@@ -67,7 +67,7 @@ body {
 }
 /* ===================== fim do LAYOUT ===================== */
 
-/* ---- Aparência (mude à vontade) ---- */
+/* ---- Aparência ---- */
 .cabecalho {
   background: var(--superficie);
   color: var(--texto);
